@@ -1,0 +1,69 @@
+baseURL = "https://yz839.github.io"
+title = "Adrienne Zheng"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Adrienne Zheng"
+description = "Adrienne's personal website"
+keywords = "blog,data science,personal"
+info = ["Data Scientist", "Part-time Sit-down Comedian"]
+avatarURL = "images/cover.jpg"
+since = 2022
+colorScheme = "light"
+hideColorSchemeToggle = false
+resources = "path/to/ResumeTemplate.pdf"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/yz839/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 2
+url = "https://www.linkedin.com/in/adrienne-yuanzhi-zheng/"
+
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+[[resources]]
+src = 'static/path/to/ResumeTemplate.pdf'
+title = 'Resume'
+[resources.params]
+ icon = 'pdf'
